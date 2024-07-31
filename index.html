@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Portfolio </title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/091d52f898.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <div id="header">
+    <div class="container">
+        <nav>
+            <img src="Logo1.png" alt="logo" class="logo">
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+            </ul>
+            <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-txt">
+            <p> Data Analyst </p>
+            <h1> Hi, I'am <span>Mrigank</span> Jaiswal <br> From India </h1>
+        </div>
+    </div>
+  </div> 
+<!-------------------about--------------------->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                 <!-- <img src="user.png"> -->
+                 <img src="image.jpg">
+            </div>
+            <div class="about-col-2">
+                 <h1 class="sub-title"> About me </h1>
+                 <p> I am currently pursuing a B.Tech in Electronics and Communication Engineering at Central University of Jammu, where I am fortunate to be mentored by ISRO. As President of the Electrovision Club, I lead initiatives focused on signal and image processing, exploring innovative computing techniques. My academic journey and leadership experience underscore my commitment to advancing technology in these dynamic fields.</p>
+
+                 <div class="tab-title">
+                    <p class = "tab active" onclick="openTab('skills')"> Skills </p>
+                    <p class = "tab" onclick="openTab('experience')"> Experience </p>
+                    <p class = "tab" onclick="openTab('Education')"> Education </p>
+                 </div>
+                 <div class="tab-content skill" id="skills">
+                    <ul>
+                        <li><spam> Web Development </spam><br> Designing Websites </li>
+                        <li><spam>  Data Analyst  </spam><br> AI/ML Researcher </li>
+                        <li><spam> AI Engineer </spam><br> Building AI Models </li>
+                        <li><spam> Bussiness Anayst </spam><br> Creating Analytics Dashboard </li>
+                        <li><spam> Content Writer/CopyWriter </spam><br> Blog/Post Writing  </li>
+                    </ul>
+                 </div>
+                 <div class="tab-content" id="experience">
+                    <ul>
+                        <li><spam> Current </spam><br> Internship at Coaders Cave Bussiness Analytics </li>
+                        <li><spam> July - 2024 </spam><br> Internship at Encryptix Artificial Intelligence </li>
+                        <li><spam> June - 2024 </spam><br> Internship at Codsoft Web Development </li>
+                        <li><spam> 2021-2022 </spam><br> Content Writer at DigiGrowth </li>
+                    </ul>
+                 </div>
+                 <div class="tab-content" id="Education">
+                    <ul>
+                        <!-- <li><spam> 2024 </spam><br> UI/UX Design at ET Institute </li> -->
+                        <li><spam> 2023-2027 </spam><br> B.Tech(Electronics and Communication Engineering) <br> Central University Of Jammu <br> Under the mentorship of ISRO </li>
+                        <li><spam> 2022 </spam><br> SSC from BRGPIC Barabanki  </li>
+                    </ul>
+                 </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-------------------services--------------------->
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title"> My Services </h1>
+        <div class="services-col">
+            <div> 
+                <i class="fa-solid fa-crop"></i>
+                <h2> Data Analyst </h2>
+                <p> As a Data Analyst, I provide insights through data visualization, statistical analysis, and predictive modeling. My services include cleaning and transforming data, identifying trends, and delivering actionable recommendations to drive business decisions. I excel in using tools like Python, R, and SQL to optimize and interpret complex datasets.</p>
+                <a href="#"> Read More </a>
+             </div>
+             <div> 
+                <i class="fa-solid fa-code"></i>
+                <h2> Web Design </h2>
+                <p> I offer tailored solutions including custom website design, responsive layouts, and user-friendly interfaces. My services cover front-end and back-end development, ensuring optimal performance and seamless integration. I specialize in creating engaging, functional websites that enhance user experience and drive business success..</p>
+                <a href="#"> Read More </a>
+             </div>
+             
+             <div> 
+                <!-- <i class="fa-brands fa-app-store"></i>  -->
+                <i class="fa-regular fa-pen-to-square"></i>
+                <h2> Creative Writing </h2>
+                <p> I offer professional content writing services, specializing in engaging blog posts and impactful social media content. With a keen eye for detail and creativity, I craft compelling narratives that capture your audience's attention and drive engagement. My portfolio showcases a range of styles and topics to meet diverse needs. </p>
+                <a href="#"> Read More </a>
+             </div>
+             
+        </div>
+    </div>
+</div>
+
+<!-- -------------------Portfolio-------------------------- --> 
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title"> My Project </h1>
+        <div class="work-list">
+              <div class="work">
+                <img src="work 01.png" >
+                
+                <div class="layer">
+                    <h3> Calculator </h3>
+                    <p> Developed a sleek and interactive calculator using HTML, CSS, and JavaScript, offering seamless arithmetic operations and user-friendly interface.</p>
+                    <a href="https://github.com/MrigankJaiswal-hub/Calculator"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+              </div>
+              <div class="work">
+                <img src="work 02.jpg" >
+                
+                <div class="layer">
+                    <h3> Tic Tac Toe </h3>
+                    <p>A dynamic Tic Tac Toe game built with HTML, CSS, and JavaScript, showcasing interactive gameplay and responsive design.</p>
+                    <a href="https://github.com/MrigankJaiswal-hub/Tic-tac-toe"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+              </div>
+              <div class="work">
+                <img src="work 03.jpg" >
+                <div class="layer">
+                    <h3> SMS Spam Detection </h3>
+                    <p>The project involves creating and deploying an email and SMS spam detection model using Python, NLTK, and Streamlit. By leveraging machine learning techniques, we train the model to classify messages as spam or not. Streamlit is used for a user-friendly interface, aiding in real-time spam detection for enhanced communication security.</p>
+                    <a href="https://github.com/MrigankJaiswal-hub/SMS-Spam-Detection"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+              </div>
+        </div>
+        <a href="https://github.com/MrigankJaiswal-hub" class="btn"> See more </a>
+    </div>
+</div>
+<!-- ----------------------Contact----------------------------------- -->
+
+<div id="contact">
+    <div class="container">
+        <div class="row">
+        <div class="contact-left">
+            <h1 class="sub-title"> Contact me </h1>
+            <p><i class="fa-solid fa-paper-plane"></i> contact.mrigankjaiswal@gmail.com </p>
+            <p><i class="fa-solid fa-square-phone"></i> +91-7006232606 </p>
+            <div class="social-icons">
+                <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://www.linkedin.com/in/mrigank-jaiswal"><i class="fa-brands fa-linkedin-in"></i></a>
+            </div>
+            <a href="my-cv.pdf" download="my-cv.pdf" class="btn btn2"> Download CV </a>
+        </div>
+        <div class="contact-right">
+            <form name="submit-to-google-sheet">
+                <input type="text" name="Name" placeholder="Your Name" required>
+                <input type="email" name="Email" placeholder="Your Email" required>
+                <textarea name="Message" rows="6" placeholder="Your Message" required></textarea>
+                <button type="submit" class = "btn btn2"> Send Message </button>
+            </form>
+            <span id="msg"></span>
+        </div>
+    </div>
+</div>
+</div>
+<footer>
+    <div class="bar">
+        <p>Copyright © 2024 . All rights reserved <br> Made by Mrigank .</p>
+      </div>
+</footer>
+<script src="script.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
